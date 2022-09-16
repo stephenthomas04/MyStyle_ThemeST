@@ -9,6 +9,7 @@
     android:orientation="vertical"
     android:background="@color/secondaryLightColor"
     tools:context=".MainActivity"
+
     tools:ignore="ExtraText">
 
     <TextView
@@ -31,8 +32,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="307dp"
-        android:layout_height="79dp"
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="@dimen/editTextHeight"
         android:layout_marginBottom="@dimen/bottomMargin"
         android:layout_weight="4"
         android:padding="10dp"
@@ -50,10 +51,12 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:layout_marginRight="8dp"
         android:padding="16dp"
-        android:layout_marginRight="2dp"
+        android:layout_gravity="Button"
+        android:gravity="center_vertical|end"
         android:textColor="@color/secondaryTextColor"
+        android:background="@color/primaryColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

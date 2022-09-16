@@ -18,6 +18,8 @@
         android:padding="@dimen/topPadding"
         android:layout_weight="11"
         android:text="Hello World!"
+        android:gravity="center_vertical|end"
+        android:layout_gravity="start"+
         android:textColor="@color/primaryTextColor"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
