@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">ST_Style_Theme</string>
+    <string name="title">Hello World</string>
 </resources>

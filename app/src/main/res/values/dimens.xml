@@ -5,6 +5,9 @@
     <dimen name ="editTextWidth">300sp</dimen>
     <dimen name ="editTextHeight">60sp</dimen>
     <dimen name ="bottomMargin">20sp</dimen>
+    <dimen name ="primaryFontSize">50sp</dimen>
+    <dimen name ="secondaryFontSize">30sp</dimen>
+    <dimen name ="buttonFontSize">20sp</dimen>
     <dimen name ="topMargin">15sp</dimen>
     <dimen name ="topPadding">10sp</dimen>
     <dimen name ="editTextPadding">10sp</dimen>
